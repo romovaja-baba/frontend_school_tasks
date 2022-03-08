@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Rubik;
+	font-weight: 300;
+	color: rgb(235, 234, 235);
+}
+
+.header {
+	background: rgb(20, 20, 40);
+	padding: 20px 20px 20px 70px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+.header a {
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.header a:hover {
+	color: white;
+}
+
+hr.rounded {
+	border-top: 8px solid #bbb;
+	border-radius: 5px;
+}
+
+.image-code {
+	margin: 10px;
+	border-radius: 15px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	padding: 35px 130px;
+	background: rgb(20, 20, 40);
+}
+
+.container p {
+	padding: 10px 0;
+	line-height: 1.7;
+}
+
+.container h2 {
+	padding: 20px 0px;
+}
+
+.container a {
+	text-decoration: none;
+	color: rgb(200, 200, 235);
+}
+
+.container a:hover {
+	text-decoration: underline;
+}
+
+.container li {
+	padding: 0px 0px 10px 20px;
+}
+
+.container dd {
+	padding: 10px 0px 20px 20px;
+}
+
+code {
+	font-family: monospace;
+	font-size: 15px;
+	color: rgb(220, 220, 250);
+	background: rgb(150, 120, 120);
+	padding: 0px 5px;
+	border-radius: 5px;
+}
+
+.to-start {
+	cursor: pointer;
+	background: url('./arrow.png');
+	background-size: cover;
+	border: none;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	width: 50px;
+    height: 50px;
+}
+
